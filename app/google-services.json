@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "347630014991",
+    "firebase_url": "https://escolas-8fe19.firebaseio.com",
+    "project_id": "escolas-8fe19",
+    "storage_bucket": "escolas-8fe19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347630014991:android:a0f779e40379de38",
+        "android_client_info": {
+          "package_name": "iesb.br.escolas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347630014991-fuepunud6eociials6s1qvvoatperbk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iesb.br.escolas",
+            "certificate_hash": "cc567f974fa8be127024b62c57d88c509fe69f0e"
+          }
+        },
+        {
+          "client_id": "347630014991-mk9c53p5j2auihupekp22mjtkq11id51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRexmc165VMbjbwP4s70LrcXgNTY5b4K0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347630014991-mk9c53p5j2auihupekp22mjtkq11id51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

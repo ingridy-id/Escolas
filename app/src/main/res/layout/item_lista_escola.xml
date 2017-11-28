@@ -7,8 +7,8 @@
         android:id="@+id/nomeEscola"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome da Escola"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:text="Código da Escola"
+
         android:textColor="@android:color/black"
         android:textStyle="bold" />
 
@@ -16,12 +16,13 @@
         android:id="@+id/enderecoEscola"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Endereço da Escola" />
+        android:text="Nome da Escola"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     <TextView
         android:id="@+id/telefoneEscola"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="(xx) xxxx-xxxx" />
+        android:text="E-mail" />
 
 </LinearLayout>

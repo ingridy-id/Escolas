@@ -6,13 +6,15 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import static android.support.v4.content.ContextCompat.startActivity;
 
 
-class EscolaViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+public class EscolaViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
     public TextView nomeEscola;
     public TextView enderecoEscola;
     public TextView telefoneEscola;
     public Context context;
+    public ModeloEscola escola;
 
     public EscolaViewHolder(View itemView, Context context) {
         super(itemView);
@@ -32,10 +34,13 @@ class EscolaViewHolder extends RecyclerView.ViewHolder implements View.OnClickLi
     public void onClick(View view) {
 
         Intent intent = new Intent(context,MapaActivity.class);
-        intent.putExtra("latitude","latitude");
-        intent.putExtra("longitude","longitude");
+        intent.putExtra("latitude",escola.getLatitude());
+        intent.putExtra("longitude",escola.getLongitude());
         context.startActivity(intent);
 
 
     }
+
+
 }
+
